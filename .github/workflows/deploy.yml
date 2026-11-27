@@ -25,8 +25,7 @@ jobs:
             # Dependencies install karein
             npm install
             
-            # Next.js ke liye build banayein (agar sirf Node.js hai toh ye line hata dein)
-            npm run build
+            
             
             # PM2 ko restart karein
             pm2 restart ahc_backend
